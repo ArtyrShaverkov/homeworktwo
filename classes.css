@@ -1,0 +1,150 @@
+.header {
+    display: flex;
+    background: pink;
+    width: auto;
+    height: 250px;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-bloc {
+    display: flex;
+    width: 70%;
+    height: 50%;
+    align-items: center;
+}
+
+.yellow-bloc {
+    background: yellow;
+    display: flex;
+    width: 70%;
+    height: 100%;
+    justify-content: center;
+}
+
+.green {
+    display: flex;
+    background: lightgreen;
+    width: 30%;
+    height: 100%;
+}
+
+.yellow {
+    display: flex;
+    background: yellow;
+    flex: 2;
+    width: 100%;
+    height: 30%;
+    align-items: center;
+    justify-content: center;
+}
+
+.blocgreen {
+    display: flex;
+    background: lightgreen;
+    width: 50%;
+    height: 30%;
+    align-self: center;
+}
+
+.red {
+    background: chocolate;
+    align-items: center;
+    align-self: center;
+    height: 30%;
+    width: 50%;
+}
+
+.brown {
+    background: brown;
+    align-items: center;
+    align-self: center;
+    height: 30%;
+    width: 30%;
+}
+
+.content {
+    background: pink;
+    width: auto;
+    height: 1000px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.content_left {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content-left-one {
+    display: flex;
+    width: 100%;
+    height: 15%;
+}
+
+.content-left-two {
+    background: yellow;
+    display: flex;
+    height: 15%;
+    justify-content: center;
+}
+
+.content_right {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+}
+
+.bloc-one-right {
+    display: flex;
+    width: 100%;
+    height: 15%;
+}
+
+.popbloc {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+}
+
+.redbloc {
+    background: chocolate;
+    width: 100%;
+    height: 40%;
+
+}
+
+.blocgreenend {
+    background: lightgreen;
+    height: 100%;
+
+}
+
+.yellow-bloc-end {
+    background: yellow;
+    width: 100%;
+    height: 250%;
+}
+
+.footer {
+    display: flex;
+    background: pink;
+    width: auto;
+    height: 250px;
+    border: 1px solid black;
+}
+
+.footerbloc-one {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: flex-end;
+}
